@@ -16,6 +16,10 @@
     ajax.open("GET", url, true);
     ajax.send();
     ajax.onload = function(e) {
+      // If not success result, ignore
+		  if (ajax.status !== 200)
+			  return;
+      
       var div = document.createElement("div");
       div.style.cssText = 'border: 0; clip: rect(0 0 0 0); height: 0; overflow: hidden; padding: 0; position: absolute; width: 0; opacity: 0;';
       div.innerHTML = ajax.responseText;
