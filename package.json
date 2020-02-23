@@ -2,7 +2,7 @@
   "name": "@121cast/boomsvgloader",
   "title": "BoomSVGLoader",
   "description": "BoomSVGLoader is a simple AJAX solution for your SVG sprite.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "boomsvgloader",
     "svg",
