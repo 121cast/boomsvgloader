@@ -1,5 +1,5 @@
 {
-  "name": "boomsvgloader",
+  "name": "@121cast/boomsvgloader",
   "title": "BoomSVGLoader",
   "description": "BoomSVGLoader is a simple AJAX solution for your SVG sprite.",
   "version": "0.0.2",
@@ -18,12 +18,13 @@
   },
   "files": [
     "README.md",
-    "dist/js/"
+    "dist/js/",
+    "src/js"
   ],
-  "main": "dist/js/boomsvgloader.js",
+  "main": "./src/js/boomsvgloader.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BoomTownROI/boomsvgloader"
+    "url": "git+https://github.com/121cast/boomsvgloader.git"
   },
   "licenses": [
     {
